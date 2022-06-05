@@ -22,49 +22,54 @@
         <div class="block">
           <label class="form-field">
           Surname:
-            <input type="text" 
-                   name="Surname" 
-                   required>
+            <input 
+              type="text" 
+              name="Surname" 
+              required>
           </label>
         </div>
     
         <div class="block">
           <label class="form-field">
           Name:
-            <input type="text"
-                   name="Name" 
-                   required>
+            <input 
+              type="text"
+              name="Name" 
+              required>
           </label>
         </div>
   
         <div class="block">
           <label class="form-field">
           How old are you?
-            <input type="text" 
-                   name="Age" 
-                   value="12" 
-                   min="1" 
-                   max="100" 
-                   required>
+            <input 
+              type="text" 
+              name="Age" 
+              value="12" 
+              min="1" 
+              max="100" 
+              required>
           </label>
         </div>
   
         <div class="block">
           <label class="form-field">
           Full date of birth:
-            <input type="date" 
-                   name="birth" 
-                   placeholder="mm/dd/yyyy" 
-                   required>
+            <input 
+              type="date" 
+              name="birth" 
+              placeholder="mm/dd/yyyy" 
+              required>
           </label>
         </div>
   
         <div class="block">
           <label class="form-field">
           I accept the terms of the agreement
-            <input type="checkbox" 
-                   name="terms" 
-                   required>
+            <input 
+              type="checkbox" 
+              name="terms" 
+              required>
           </label>
         </div>
       </fieldset>
@@ -75,10 +80,11 @@
         <div class="block">
           <label class="form-field">
          E-mail
-            <input type="email" 
-                   name="email" 
-                   placeholder="email@example.com" 
-                   required>
+            <input 
+              type="email" 
+              name="email" 
+              placeholder="email@example.com" 
+              required>
           </label>
         </div>
 
@@ -101,16 +107,22 @@
         <legend>An interesting fact about you!</legend>
 
         <div class="block">
-          <label class="form-field">
          Do you love cats?
-            <input type="radio" 
-                   name="cats" 
-                   value="yes">
-        Yes
-            <input type="radio" 
-                   name="cats" 
-                   value="no">
-        No
+          <input 
+            type="radio" 
+            name="cats" 
+            value="yes"
+            id="button-yes">
+          <label for="button-yes">
+         Yes
+          </label>
+          <input 
+            type="radio" 
+            name="cats" 
+            value="no"
+            id="button-no">
+          <label for="button-no">
+         No
           </label>
         </div>
 
